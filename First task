@@ -1,0 +1,26 @@
+1. print (sum(range(88888889)))
+
+2. list_array = [3, 4, 56, 100, 2, 2, 3]
+avg = sum(list_array)/len(list_array)
+print(avg)
+   
+3. 
+string = 'asdxfghyxyx'
+new_string = ''
+for i in string:
+    if i == 'x':
+        new_string += 'y'
+    else:
+        new_string += i 
+print(new_string)
+
+4.
+array_list = [3, 4, 56, 100, 15, 2, 20, 30]
+num = 1
+for i in array_list:
+    if (i % 3 == 0) and (i % 5 == 0):
+        num *= i 
+print (num)
+
+5.
+print ('asdxfghyxyx'.replace('x', 'y'))
